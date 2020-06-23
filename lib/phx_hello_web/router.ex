@@ -18,7 +18,7 @@ defmodule PhxHelloWeb.Router do
 
     get "/", PageController, :index
 
-    get "/hello", HelloController, :hello
+    get "/hello", HelloController, :world
   end
 
   # Other scopes may use custom stacks.
